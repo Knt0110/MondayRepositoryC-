@@ -1,12 +1,12 @@
 #include <iostream>
 using namespace std;
 
-void Add(int num)
+void Add(int &num)
 {
 	num += 10;
 }
 
-int mian(void)
+int main(void)
 {
 	int number;
 
